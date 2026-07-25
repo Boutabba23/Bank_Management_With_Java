@@ -1,3 +1,5 @@
+package com.larab;
+
 public abstract class Account {
     private int accountNumber;
     private double balance;
@@ -5,7 +7,7 @@ public abstract class Account {
 
     public Account(int accountNumber, double balance, Person owner) {
         if (accountNumber < 0) {
-            throw new IllegalArgumentException("Account Number can not be negative");
+            throw new IllegalArgumentException("com.larab.Account Number can not be negative");
         }
         if (balance < 0) {
             throw new IllegalArgumentException("Balance can not be negative");
@@ -43,7 +45,7 @@ public abstract class Account {
 
     @Override
     public String toString() {
-        return "Account {Account Number : " + accountNumber + ", Balance : " + balance + ", Owner : " + owner + "}";
+        return "com.larab.Account {com.larab.Account Number : " + accountNumber + ", Balance : " + balance + ", Owner : " + owner + "}";
     }
 
 }

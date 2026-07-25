@@ -1,3 +1,5 @@
+package com.larab;
+
 public class CheckingAccount extends Account {
     private double overdraftLimit;
 
@@ -8,6 +10,6 @@ public class CheckingAccount extends Account {
 
     @Override
     public void withDraw(double amount) {
-        
+
     }
 }

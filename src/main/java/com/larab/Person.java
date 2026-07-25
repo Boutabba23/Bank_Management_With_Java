@@ -1,3 +1,5 @@
+package com.larab;
+
 public class Person {
     private String name;
     private int age;
@@ -23,6 +25,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{Name : " + name + ", Age : " + age + "}";
+        return "com.larab.Person{Name : " + name + ", Age : " + age + "}";
     }
 }

@@ -1,3 +1,5 @@
+package com.larab;
+
 import java.util.ArrayList;
 
 public class Bank {
@@ -9,7 +11,7 @@ public class Bank {
 
     public void addAccounts(Account account) {
         if (account == null) {
-            throw new IllegalArgumentException("Account can not be null!");
+            throw new IllegalArgumentException("com.larab.Account can not be null!");
         }
         accounts.add(account);
     }
